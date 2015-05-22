@@ -20,13 +20,13 @@
     <AppXManifest Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\bin\x64\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-05-22T05:30:03.231</Modified>
+      <Modified>2015-05-22T06:27:32.637</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\bin\x64\Debug\Douban.Windows.exe">
       <PackagePath>Douban.Windows.exe</PackagePath>
-      <Modified>2015-05-22T05:29:57.476</Modified>
+      <Modified>2015-05-22T06:27:31.785</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\SQLite.WinRT81\3.8.10\Redist\Debug\x64\sqlite3.dll">
       <PackagePath>sqlite3.dll</PackagePath>
@@ -567,15 +567,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2015-05-22T05:29:56.960</Modified>
+      <Modified>2015-05-22T06:27:31.415</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-05-22T05:29:56.963</Modified>
+      <Modified>2015-05-22T06:27:31.418</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\bin\x64\Debug\MovieReview.xbf">
       <PackagePath>MovieReview.xbf</PackagePath>
-      <Modified>2015-05-22T05:29:56.965</Modified>
+      <Modified>2015-05-22T06:27:31.421</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\bin\x64\Debug\Douban.Windows.xr.xml">
       <PackagePath>Douban.Windows.xr.xml</PackagePath>
@@ -583,7 +583,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-05-22T05:30:02.348</Modified>
+      <Modified>2015-05-22T06:27:32.292</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
