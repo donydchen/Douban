@@ -52,6 +52,7 @@ namespace Douban
         }
 
         //复制数据库函数，参考链接：http://wp.qmatteoq.com/import-an-already-existing-sqlite-database-in-a-windows-8-application/
+        //特别提醒：如果更换数据库，将创建好的数据库导入项目中后，需设置其“生成操作”属性设置为“内容”，“复制到输出目录”选择“始终复制”，否则无法读取项目目录
         private async Task CopyDatabase()
         {
             /*bool isDatabaseExisting = false;
