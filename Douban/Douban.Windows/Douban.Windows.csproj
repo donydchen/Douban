@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7239502E-EE94-4E4C-8A71-2D3367985915}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Douban</RootNamespace>
+    <AssemblyName>Douban.Windows</AssemblyName>
+    <DefaultLanguage>zh-CN</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <SynthesizeLinkMetadata>true</SynthesizeLinkMetadata>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>Douban.Windows_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxBundlePlatforms>x64</AppxBundlePlatforms>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MovieReview.xaml.cs">
+      <DependentUpon>MovieReview.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SQLite.cs" />
+    <Compile Include="SQLiteAsync.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="Douban.Windows_TemporaryKey.pfx" />
+    <Content Include="Assets\movie_poster\1.jpg" />
+    <Content Include="Assets\movie_poster\10.jpg" />
+    <Content Include="Assets\movie_poster\100.jpg" />
+    <Content Include="Assets\movie_poster\101.jpg" />
+    <Content Include="Assets\movie_poster\102.jpg" />
+    <Content Include="Assets\movie_poster\103.jpg" />
+    <Content Include="Assets\movie_poster\104.jpg" />
+    <Content Include="Assets\movie_poster\105.jpg" />
+    <Content Include="Assets\movie_poster\106.jpg" />
+    <Content Include="Assets\movie_poster\107.jpg" />
+    <Content Include="Assets\movie_poster\108.jpg" />
+    <Content Include="Assets\movie_poster\109.jpg" />
+    <Content Include="Assets\movie_poster\11.jpg" />
+    <Content Include="Assets\movie_poster\110.jpg" />
+    <Content Include="Assets\movie_poster\111.jpg" />
+    <Content Include="Assets\movie_poster\112.jpg" />
+    <Content Include="Assets\movie_poster\113.jpg" />
+    <Content Include="Assets\movie_poster\114.jpg" />
+    <Content Include="Assets\movie_poster\115.jpg" />
+    <Content Include="Assets\movie_poster\116.jpg" />
+    <Content Include="Assets\movie_poster\117.jpg" />
+    <Content Include="Assets\movie_poster\118.jpg" />
+    <Content Include="Assets\movie_poster\119.jpg" />
+    <Content Include="Assets\movie_poster\12.jpg" />
+    <Content Include="Assets\movie_poster\120.jpg" />
+    <Content Include="Assets\movie_poster\121.jpg" />
+    <Content Include="Assets\movie_poster\122.jpg" />
+    <Content Include="Assets\movie_poster\123.jpg" />
+    <Content Include="Assets\movie_poster\124.jpg" />
+    <Content Include="Assets\movie_poster\125.jpg" />
+    <Content Include="Assets\movie_poster\13.jpg" />
+    <Content Include="Assets\movie_poster\14.jpg" />
+    <Content Include="Assets\movie_poster\15.jpg" />
+    <Content Include="Assets\movie_poster\16.jpg" />
+    <Content Include="Assets\movie_poster\17.jpg" />
+    <Content Include="Assets\movie_poster\18.jpg" />
+    <Content Include="Assets\movie_poster\19.jpg" />
+    <Content Include="Assets\movie_poster\2.jpg" />
+    <Content Include="Assets\movie_poster\20.jpg" />
+    <Content Include="Assets\movie_poster\21.jpg" />
+    <Content Include="Assets\movie_poster\22.jpg" />
+    <Content Include="Assets\movie_poster\23.jpg" />
+    <Content Include="Assets\movie_poster\24.jpg" />
+    <Content Include="Assets\movie_poster\25.jpg" />
+    <Content Include="Assets\movie_poster\26.jpg" />
+    <Content Include="Assets\movie_poster\27.jpg" />
+    <Content Include="Assets\movie_poster\28.jpg" />
+    <Content Include="Assets\movie_poster\29.jpg" />
+    <Content Include="Assets\movie_poster\3.jpg" />
+    <Content Include="Assets\movie_poster\30.jpg" />
+    <Content Include="Assets\movie_poster\31.jpg" />
+    <Content Include="Assets\movie_poster\32.jpg" />
+    <Content Include="Assets\movie_poster\33.jpg" />
+    <Content Include="Assets\movie_poster\34.jpg" />
+    <Content Include="Assets\movie_poster\35.jpg" />
+    <Content Include="Assets\movie_poster\36.jpg" />
+    <Content Include="Assets\movie_poster\37.jpg" />
+    <Content Include="Assets\movie_poster\38.jpg" />
+    <Content Include="Assets\movie_poster\39.jpg" />
+    <Content Include="Assets\movie_poster\4.jpg" />
+    <Content Include="Assets\movie_poster\40.jpg" />
+    <Content Include="Assets\movie_poster\41.jpg" />
+    <Content Include="Assets\movie_poster\42.jpg" />
+    <Content Include="Assets\movie_poster\43.jpg" />
+    <Content Include="Assets\movie_poster\44.jpg" />
+    <Content Include="Assets\movie_poster\45.jpg" />
+    <Content Include="Assets\movie_poster\46.jpg" />
+    <Content Include="Assets\movie_poster\47.jpg" />
+    <Content Include="Assets\movie_poster\48.jpg" />
+    <Content Include="Assets\movie_poster\49.jpg" />
+    <Content Include="Assets\movie_poster\5.jpg" />
+    <Content Include="Assets\movie_poster\50.jpg" />
+    <Content Include="Assets\movie_poster\51.jpg" />
+    <Content Include="Assets\movie_poster\52.jpg" />
+    <Content Include="Assets\movie_poster\53.jpg" />
+    <Content Include="Assets\movie_poster\54.jpg" />
+    <Content Include="Assets\movie_poster\55.jpg" />
+    <Content Include="Assets\movie_poster\56.jpg" />
+    <Content Include="Assets\movie_poster\57.jpg" />
+    <Content Include="Assets\movie_poster\58.jpg" />
+    <Content Include="Assets\movie_poster\59.jpg" />
+    <Content Include="Assets\movie_poster\6.jpg" />
+    <Content Include="Assets\movie_poster\60.jpg" />
+    <Content Include="Assets\movie_poster\61.jpg" />
+    <Content Include="Assets\movie_poster\62.jpg" />
+    <Content Include="Assets\movie_poster\63.jpg" />
+    <Content Include="Assets\movie_poster\64.jpg" />
+    <Content Include="Assets\movie_poster\65.jpg" />
+    <Content Include="Assets\movie_poster\66.jpg" />
+    <Content Include="Assets\movie_poster\67.jpg" />
+    <Content Include="Assets\movie_poster\68.jpg" />
+    <Content Include="Assets\movie_poster\69.jpg" />
+    <Content Include="Assets\movie_poster\7.jpg" />
+    <Content Include="Assets\movie_poster\70.jpg" />
+    <Content Include="Assets\movie_poster\71.jpg" />
+    <Content Include="Assets\movie_poster\72.jpg" />
+    <Content Include="Assets\movie_poster\73.jpg" />
+    <Content Include="Assets\movie_poster\74.jpg" />
+    <Content Include="Assets\movie_poster\75.jpg" />
+    <Content Include="Assets\movie_poster\76.jpg" />
+    <Content Include="Assets\movie_poster\77.jpg" />
+    <Content Include="Assets\movie_poster\78.jpg" />
+    <Content Include="Assets\movie_poster\79.jpg" />
+    <Content Include="Assets\movie_poster\8.jpg" />
+    <Content Include="Assets\movie_poster\80.jpg" />
+    <Content Include="Assets\movie_poster\81.jpg" />
+    <Content Include="Assets\movie_poster\82.jpg" />
+    <Content Include="Assets\movie_poster\83.jpg" />
+    <Content Include="Assets\movie_poster\84.jpg" />
+    <Content Include="Assets\movie_poster\85.jpg" />
+    <Content Include="Assets\movie_poster\86.jpg" />
+    <Content Include="Assets\movie_poster\87.jpg" />
+    <Content Include="Assets\movie_poster\88.jpg" />
+    <Content Include="Assets\movie_poster\89.jpg" />
+    <Content Include="Assets\movie_poster\9.jpg" />
+    <Content Include="Assets\movie_poster\90.jpg" />
+    <Content Include="Assets\movie_poster\91.jpg" />
+    <Content Include="Assets\movie_poster\92.jpg" />
+    <Content Include="Assets\movie_poster\93.jpg" />
+    <Content Include="Assets\movie_poster\94.jpg" />
+    <Content Include="Assets\movie_poster\95.jpg" />
+    <Content Include="Assets\movie_poster\96.jpg" />
+    <Content Include="Assets\movie_poster\97.jpg" />
+    <Content Include="Assets\movie_poster\98.jpg" />
+    <Content Include="Assets\movie_poster\99.jpg" />
+    <Content Include="Assets\SplashScreen.scale-180.png" />
+    <Content Include="Assets\Square310x310Logo.scale-100.png" />
+    <Content Include="doubanmovie.sqlite">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\SmallLogo.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MovieReview.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.VCLibs, Version=12.0">
+      <Name>Microsoft Visual C++ 2013 Runtime Package for Windows</Name>
+    </SDKReference>
+    <SDKReference Include="SQLite.WinRT81, Version=3.8.10">
+      <Name>SQLite for Windows Runtime %28Windows 8.1%29</Name>
+    </SDKReference>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="..\Douban.Shared\Douban.Shared.projitems" Label="Shared" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

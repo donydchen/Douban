@@ -1,0 +1,4 @@
+obj\x64\Debug\split.pri
+obj\x64\Debug\split.map.txt
+obj\x64\Debug\split.scale-180.pri
+obj\x64\Debug\split.scale-180.map.txt

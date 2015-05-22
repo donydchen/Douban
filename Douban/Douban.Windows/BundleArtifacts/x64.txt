@@ -1,0 +1,3 @@
+MainPackage=F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\bin\x64\Debug\Douban.Windows_1.0.0.1_Bundle\Douban.Windows_1.0.0.1_x64_Debug.appx
+SymbolPackage=F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\AppPackages\Douban.Windows_1.0.0.1_Debug_Test\Douban.Windows_1.0.0.1_x64_Debug.appxsym
+ResourcePack=F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\bin\x64\Debug\Douban.Windows_1.0.0.1_Bundle\Douban.Windows_1.0.0.1_scale-180.appx

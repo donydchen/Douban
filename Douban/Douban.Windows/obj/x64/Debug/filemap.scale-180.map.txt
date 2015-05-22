@@ -1,0 +1,7 @@
+﻿[ResourceMetadata]
+"ResourceId"			"filemap.scale-180"
+"ResourceDimensions"		"scale-180"
+
+[Files]
+"F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\obj\x64\Debug\filemap.scale-180.pri"			"resources.pri"
+"F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\obj\x64\Debug\PackageLayout\Assets\SplashScreen.scale-180.png"			"Assets\SplashScreen.scale-180.png"

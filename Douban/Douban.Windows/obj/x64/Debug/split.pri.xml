@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="DoubanMovie" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>100</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://DoubanMovie/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Douban.Windows.xr.xml" uri="ms-resource://DoubanMovie/Files/Douban.Windows.xr.xml">
+				<Candidate type="Path">
+					<Value>Douban.Windows.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="doubanmovie.sqlite" uri="ms-resource://DoubanMovie/Files/doubanmovie.sqlite">
+				<Candidate type="Path">
+					<Value>doubanmovie.sqlite</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://DoubanMovie/Files/MainPage.xbf">
+				<Candidate type="Path">
+					<Value>MainPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MovieReview.xbf" uri="ms-resource://DoubanMovie/Files/MovieReview.xbf">
+				<Candidate type="Path">
+					<Value>MovieReview.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="Logo.png" uri="ms-resource://DoubanMovie/Files/Assets/Logo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogo.png" uri="ms-resource://DoubanMovie/Files/Assets/SmallLogo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://DoubanMovie/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square310x310Logo.png" uri="ms-resource://DoubanMovie/Files/Assets/Square310x310Logo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Square310x310Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://DoubanMovie/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="movie_poster">
+					<NamedResource name="1.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/1.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\1.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="10.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/10.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\10.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="100.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/100.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\100.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="101.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/101.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\101.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="102.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/102.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\102.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="103.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/103.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\103.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="104.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/104.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\104.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="105.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/105.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\105.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="106.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/106.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\106.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="107.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/107.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\107.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="108.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/108.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\108.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="109.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/109.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\109.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="11.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/11.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\11.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="110.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/110.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\110.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="111.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/111.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\111.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="112.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/112.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\112.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="113.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/113.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\113.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="114.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/114.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\114.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="115.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/115.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\115.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="116.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/116.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\116.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="117.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/117.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\117.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="118.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/118.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\118.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="119.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/119.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\119.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="12.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/12.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\12.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="120.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/120.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\120.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="121.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/121.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\121.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="122.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/122.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\122.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="123.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/123.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\123.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="124.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/124.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\124.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="125.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/125.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\125.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="13.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/13.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\13.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="14.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/14.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\14.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="15.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/15.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\15.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="16.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/16.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\16.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="17.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/17.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\17.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="18.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/18.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\18.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="19.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/19.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\19.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="2.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/2.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\2.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="20.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/20.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\20.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="21.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/21.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\21.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="22.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/22.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\22.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="23.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/23.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\23.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="24.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/24.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\24.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="25.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/25.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\25.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="26.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/26.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\26.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="27.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/27.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\27.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="28.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/28.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\28.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="29.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/29.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\29.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="3.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/3.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\3.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="30.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/30.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\30.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="31.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/31.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\31.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="32.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/32.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\32.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="33.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/33.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\33.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="34.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/34.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\34.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="35.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/35.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\35.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="36.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/36.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\36.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="37.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/37.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\37.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="38.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/38.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\38.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="39.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/39.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\39.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="4.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/4.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\4.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="40.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/40.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\40.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="41.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/41.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\41.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="42.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/42.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\42.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="43.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/43.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\43.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="44.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/44.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\44.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="45.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/45.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\45.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="46.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/46.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\46.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="47.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/47.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\47.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="48.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/48.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\48.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="49.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/49.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\49.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="5.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/5.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\5.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="50.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/50.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\50.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="51.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/51.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\51.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="52.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/52.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\52.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="53.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/53.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\53.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="54.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/54.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\54.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="55.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/55.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\55.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="56.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/56.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\56.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="57.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/57.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\57.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="58.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/58.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\58.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="59.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/59.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\59.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="6.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/6.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\6.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="60.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/60.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\60.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="61.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/61.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\61.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="62.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/62.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\62.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="63.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/63.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\63.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="64.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/64.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\64.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="65.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/65.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\65.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="66.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/66.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\66.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="67.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/67.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\67.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="68.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/68.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\68.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="69.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/69.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\69.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="7.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/7.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\7.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="70.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/70.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\70.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="71.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/71.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\71.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="72.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/72.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\72.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="73.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/73.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\73.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="74.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/74.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\74.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="75.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/75.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\75.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="76.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/76.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\76.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="77.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/77.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\77.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="78.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/78.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\78.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="79.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/79.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\79.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="8.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/8.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\8.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="80.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/80.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\80.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="81.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/81.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\81.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="82.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/82.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\82.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="83.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/83.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\83.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="84.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/84.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\84.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="85.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/85.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\85.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="86.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/86.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\86.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="87.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/87.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\87.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="88.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/88.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\88.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="89.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/89.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\89.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="9.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/9.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\9.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="90.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/90.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\90.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="91.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/91.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\91.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="92.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/92.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\92.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="93.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/93.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\93.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="94.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/94.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\94.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="95.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/95.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\95.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="96.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/96.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\96.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="97.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/97.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\97.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="98.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/98.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\98.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="99.jpg" uri="ms-resource://DoubanMovie/Files/Assets/movie_poster/99.jpg">
+						<Candidate type="Path">
+							<Value>Assets\movie_poster\99.jpg</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

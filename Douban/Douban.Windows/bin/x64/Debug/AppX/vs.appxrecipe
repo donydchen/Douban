@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DONALDPC</Machine>
+    <WindowsUser>Donald</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>DoubanMovie</PackageIdentityName>
+    <IntermediateOutputPath>F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\obj\x64\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>722B024CFCC86709BA2BF5905E0C68014A52C39B02C83E69267D09435AD9A3CD</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>DoubanMovie_1.0.0.1_x64__kbdm0j06kkr0p</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>DoubanMovie_kbdm0j06kkr0p!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>DoubanMovie</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Donald</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.1</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\bin\x64\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-22T05:30:03.231</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\bin\x64\Debug\Douban.Windows.exe">
+      <PackagePath>Douban.Windows.exe</PackagePath>
+      <Modified>2015-05-22T05:29:57.476</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\SQLite.WinRT81\3.8.10\Redist\Debug\x64\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+      <Modified>2015-05-17T13:16:32.687</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\1.jpg">
+      <PackagePath>Assets\movie_poster\1.jpg</PackagePath>
+      <Modified>2015-05-20T03:35:43.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\10.jpg">
+      <PackagePath>Assets\movie_poster\10.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\100.jpg">
+      <PackagePath>Assets\movie_poster\100.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:57.492</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\101.jpg">
+      <PackagePath>Assets\movie_poster\101.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:57.524</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\102.jpg">
+      <PackagePath>Assets\movie_poster\102.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:57.528</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\103.jpg">
+      <PackagePath>Assets\movie_poster\103.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:57.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\104.jpg">
+      <PackagePath>Assets\movie_poster\104.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:57.535</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\105.jpg">
+      <PackagePath>Assets\movie_poster\105.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:57.630</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\106.jpg">
+      <PackagePath>Assets\movie_poster\106.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:57.636</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\107.jpg">
+      <PackagePath>Assets\movie_poster\107.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:57.640</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\108.jpg">
+      <PackagePath>Assets\movie_poster\108.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:57.644</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\109.jpg">
+      <PackagePath>Assets\movie_poster\109.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:57.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\11.jpg">
+      <PackagePath>Assets\movie_poster\11.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.187</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\110.jpg">
+      <PackagePath>Assets\movie_poster\110.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:57.802</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\111.jpg">
+      <PackagePath>Assets\movie_poster\111.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:57.809</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\112.jpg">
+      <PackagePath>Assets\movie_poster\112.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:57.813</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\113.jpg">
+      <PackagePath>Assets\movie_poster\113.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:57.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\114.jpg">
+      <PackagePath>Assets\movie_poster\114.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:57.833</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\115.jpg">
+      <PackagePath>Assets\movie_poster\115.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:57.837</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\116.jpg">
+      <PackagePath>Assets\movie_poster\116.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:57.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\117.jpg">
+      <PackagePath>Assets\movie_poster\117.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:57.875</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\118.jpg">
+      <PackagePath>Assets\movie_poster\118.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:57.960</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\119.jpg">
+      <PackagePath>Assets\movie_poster\119.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:57.967</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\12.jpg">
+      <PackagePath>Assets\movie_poster\12.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\120.jpg">
+      <PackagePath>Assets\movie_poster\120.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:57.971</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\121.jpg">
+      <PackagePath>Assets\movie_poster\121.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:57.975</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\122.jpg">
+      <PackagePath>Assets\movie_poster\122.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:57.979</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\123.jpg">
+      <PackagePath>Assets\movie_poster\123.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:57.982</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\124.jpg">
+      <PackagePath>Assets\movie_poster\124.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:57.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\125.jpg">
+      <PackagePath>Assets\movie_poster\125.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:57.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\13.jpg">
+      <PackagePath>Assets\movie_poster\13.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.198</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\14.jpg">
+      <PackagePath>Assets\movie_poster\14.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\15.jpg">
+      <PackagePath>Assets\movie_poster\15.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.244</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\16.jpg">
+      <PackagePath>Assets\movie_poster\16.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.247</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\17.jpg">
+      <PackagePath>Assets\movie_poster\17.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.251</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\18.jpg">
+      <PackagePath>Assets\movie_poster\18.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.254</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\19.jpg">
+      <PackagePath>Assets\movie_poster\19.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\2.jpg">
+      <PackagePath>Assets\movie_poster\2.jpg</PackagePath>
+      <Modified>2015-05-20T03:35:43.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\20.jpg">
+      <PackagePath>Assets\movie_poster\20.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\21.jpg">
+      <PackagePath>Assets\movie_poster\21.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\22.jpg">
+      <PackagePath>Assets\movie_poster\22.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.267</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\23.jpg">
+      <PackagePath>Assets\movie_poster\23.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.271</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\24.jpg">
+      <PackagePath>Assets\movie_poster\24.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.274</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\25.jpg">
+      <PackagePath>Assets\movie_poster\25.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\26.jpg">
+      <PackagePath>Assets\movie_poster\26.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\27.jpg">
+      <PackagePath>Assets\movie_poster\27.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\28.jpg">
+      <PackagePath>Assets\movie_poster\28.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.287</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\29.jpg">
+      <PackagePath>Assets\movie_poster\29.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.290</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\3.jpg">
+      <PackagePath>Assets\movie_poster\3.jpg</PackagePath>
+      <Modified>2015-05-20T03:35:43.947</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\30.jpg">
+      <PackagePath>Assets\movie_poster\30.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.293</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\31.jpg">
+      <PackagePath>Assets\movie_poster\31.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.298</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\32.jpg">
+      <PackagePath>Assets\movie_poster\32.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.301</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\33.jpg">
+      <PackagePath>Assets\movie_poster\33.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.305</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\34.jpg">
+      <PackagePath>Assets\movie_poster\34.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.308</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\35.jpg">
+      <PackagePath>Assets\movie_poster\35.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.312</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\36.jpg">
+      <PackagePath>Assets\movie_poster\36.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.316</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\37.jpg">
+      <PackagePath>Assets\movie_poster\37.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.318</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\38.jpg">
+      <PackagePath>Assets\movie_poster\38.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\39.jpg">
+      <PackagePath>Assets\movie_poster\39.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.328</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\4.jpg">
+      <PackagePath>Assets\movie_poster\4.jpg</PackagePath>
+      <Modified>2015-05-20T03:35:43.950</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\40.jpg">
+      <PackagePath>Assets\movie_poster\40.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.332</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\41.jpg">
+      <PackagePath>Assets\movie_poster\41.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.335</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\42.jpg">
+      <PackagePath>Assets\movie_poster\42.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\43.jpg">
+      <PackagePath>Assets\movie_poster\43.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.342</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\44.jpg">
+      <PackagePath>Assets\movie_poster\44.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.346</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\45.jpg">
+      <PackagePath>Assets\movie_poster\45.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.349</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\46.jpg">
+      <PackagePath>Assets\movie_poster\46.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.354</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\47.jpg">
+      <PackagePath>Assets\movie_poster\47.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.360</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\48.jpg">
+      <PackagePath>Assets\movie_poster\48.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.363</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\49.jpg">
+      <PackagePath>Assets\movie_poster\49.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.367</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\5.jpg">
+      <PackagePath>Assets\movie_poster\5.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\50.jpg">
+      <PackagePath>Assets\movie_poster\50.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.370</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\51.jpg">
+      <PackagePath>Assets\movie_poster\51.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\52.jpg">
+      <PackagePath>Assets\movie_poster\52.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.408</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\53.jpg">
+      <PackagePath>Assets\movie_poster\53.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.412</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\54.jpg">
+      <PackagePath>Assets\movie_poster\54.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.428</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\55.jpg">
+      <PackagePath>Assets\movie_poster\55.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.431</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\56.jpg">
+      <PackagePath>Assets\movie_poster\56.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.449</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\57.jpg">
+      <PackagePath>Assets\movie_poster\57.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.483</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\58.jpg">
+      <PackagePath>Assets\movie_poster\58.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.486</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\59.jpg">
+      <PackagePath>Assets\movie_poster\59.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.515</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\6.jpg">
+      <PackagePath>Assets\movie_poster\6.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\60.jpg">
+      <PackagePath>Assets\movie_poster\60.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\61.jpg">
+      <PackagePath>Assets\movie_poster\61.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\62.jpg">
+      <PackagePath>Assets\movie_poster\62.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.530</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\63.jpg">
+      <PackagePath>Assets\movie_poster\63.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.534</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\64.jpg">
+      <PackagePath>Assets\movie_poster\64.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.538</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\65.jpg">
+      <PackagePath>Assets\movie_poster\65.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\66.jpg">
+      <PackagePath>Assets\movie_poster\66.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.586</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\67.jpg">
+      <PackagePath>Assets\movie_poster\67.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.589</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\68.jpg">
+      <PackagePath>Assets\movie_poster\68.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.593</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\69.jpg">
+      <PackagePath>Assets\movie_poster\69.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.597</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\7.jpg">
+      <PackagePath>Assets\movie_poster\7.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.125</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\70.jpg">
+      <PackagePath>Assets\movie_poster\70.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.601</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\71.jpg">
+      <PackagePath>Assets\movie_poster\71.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.607</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\72.jpg">
+      <PackagePath>Assets\movie_poster\72.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\73.jpg">
+      <PackagePath>Assets\movie_poster\73.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.614</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\74.jpg">
+      <PackagePath>Assets\movie_poster\74.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\75.jpg">
+      <PackagePath>Assets\movie_poster\75.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.621</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\76.jpg">
+      <PackagePath>Assets\movie_poster\76.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.624</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\77.jpg">
+      <PackagePath>Assets\movie_poster\77.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.645</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\78.jpg">
+      <PackagePath>Assets\movie_poster\78.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.649</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\79.jpg">
+      <PackagePath>Assets\movie_poster\79.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.654</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\8.jpg">
+      <PackagePath>Assets\movie_poster\8.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.129</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\80.jpg">
+      <PackagePath>Assets\movie_poster\80.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.660</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\81.jpg">
+      <PackagePath>Assets\movie_poster\81.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\82.jpg">
+      <PackagePath>Assets\movie_poster\82.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.678</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\83.jpg">
+      <PackagePath>Assets\movie_poster\83.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.682</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\84.jpg">
+      <PackagePath>Assets\movie_poster\84.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\85.jpg">
+      <PackagePath>Assets\movie_poster\85.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.690</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\86.jpg">
+      <PackagePath>Assets\movie_poster\86.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.694</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\87.jpg">
+      <PackagePath>Assets\movie_poster\87.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.697</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\88.jpg">
+      <PackagePath>Assets\movie_poster\88.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.701</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\89.jpg">
+      <PackagePath>Assets\movie_poster\89.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\9.jpg">
+      <PackagePath>Assets\movie_poster\9.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\90.jpg">
+      <PackagePath>Assets\movie_poster\90.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.755</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\91.jpg">
+      <PackagePath>Assets\movie_poster\91.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.759</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\92.jpg">
+      <PackagePath>Assets\movie_poster\92.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\93.jpg">
+      <PackagePath>Assets\movie_poster\93.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\94.jpg">
+      <PackagePath>Assets\movie_poster\94.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.802</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\95.jpg">
+      <PackagePath>Assets\movie_poster\95.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.805</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\96.jpg">
+      <PackagePath>Assets\movie_poster\96.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.809</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\97.jpg">
+      <PackagePath>Assets\movie_poster\97.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.813</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\98.jpg">
+      <PackagePath>Assets\movie_poster\98.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.817</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\movie_poster\99.jpg">
+      <PackagePath>Assets\movie_poster\99.jpg</PackagePath>
+      <Modified>2015-05-20T04:21:56.821</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\SplashScreen.scale-180.png">
+      <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-20T03:35:43.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <Modified>2015-05-20T03:35:43.906</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-20T03:35:43.901</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-20T03:35:43.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-20T03:35:43.904</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-20T03:35:43.907</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\doubanmovie.sqlite">
+      <PackagePath>doubanmovie.sqlite</PackagePath>
+      <Modified>2015-05-20T04:21:36.319</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\bin\x64\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-05-22T05:29:56.960</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\bin\x64\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-05-22T05:29:56.963</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\bin\x64\Debug\MovieReview.xbf">
+      <PackagePath>MovieReview.xbf</PackagePath>
+      <Modified>2015-05-22T05:29:56.965</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\bin\x64\Debug\Douban.Windows.xr.xml">
+      <PackagePath>Douban.Windows.xr.xml</PackagePath>
+      <Modified>2015-05-20T05:24:19.854</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\VisualStudio2013\projects\Douban\Douban\Douban.Windows\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-05-22T05:30:02.348</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
