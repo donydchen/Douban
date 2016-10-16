@@ -1,0 +1,4 @@
+*.pyc
+movie_poster/*.jpg
+doubanmovie.sqlite
+failed_rsps.log

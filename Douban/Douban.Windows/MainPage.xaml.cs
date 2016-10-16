@@ -30,13 +30,13 @@ namespace Douban
     成功之后便会在系统中自动添加SQLite.cs 和 SQLiteAsnync.cs 两个文件，这样便可利用他们来对sqlite数据库进行操作了。
     但由于sqlite不支持any CPU来编译，所以需要将debug环境配置为x64。又由于设计视图不可用于ARM和x64目标平台，
     所以开发过程中还是需要使用any CPU环境， 编译时再换为x64便可（注：这样的缺陷是无法使用Blend开发）
-    参考链接：http://www.devdiv.com/metro%E4%B8%ADsqlite%E5%AE%89%E8%A3%85%E5%BF%83%E5%BE%97-weblog-252306-13068.html   
+    参考链接：http://www.devdiv.com/metro%E4%B8%ADsqlite%E5%AE%89%E8%A3%85%E5%BF%83%E5%BE%97-weblog-252306-13068.html
      */
 
 
     public sealed partial class MainPage : Page
     {
-        private readonly Task _initializingTask; 
+        private readonly Task _initializingTask;
         //public static MainPage Current;
         ViewModel viewModel;
         int totalMovie;
@@ -81,7 +81,7 @@ namespace Douban
             var dbpath = Path.Combine(Windows.Storage.ApplicationData.Current.LocalFolder.Path, "doubanmovie.sqlite");
             var db = new SQLite.SQLiteConnection(dbpath);
             List<object> list = db.Query(new TableMapping(typeof(Top250)), "select * from Top250 ");
-            int mindex = 0; 
+            int mindex = 0;
                 foreach (Top250 item in list)
                 {
                     mindex++;
@@ -99,7 +99,7 @@ namespace Douban
                     imgInfor.SelectedIndex = viewModel.SelectedItemIndex;
                     imgInfor.ScrollIntoView(imgInfor.SelectedItem);
                 }
-            };       
+            };
         }
 
         //搜索建议
@@ -212,7 +212,7 @@ namespace Douban
     }
 
     //Top250的电影类，注意名字要与数据库中相同
-    class Top250 
+    class Top250
     {
 
         [PrimaryKey, AutoIncrement]
@@ -225,7 +225,7 @@ namespace Douban
         public float score {get;set;}
         public int year {get; set;}
         public string abstracts {get; set; }
-        public string poster { get; set; } 
+        public string poster { get; set; }
         public int mindex { get; set; } //用于显示实际排序情况
 
     }
@@ -257,7 +257,7 @@ namespace Douban
             {
                 return storeDataSampleList;
             }
-            
+
         }
         public event PropertyChangedEventHandler PropertyChanged;
         private void NotifyPropertyChanged(string SomeAttri)
